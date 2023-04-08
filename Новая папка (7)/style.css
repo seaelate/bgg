@@ -1,0 +1,18 @@
+
+.textcols {
+	white-space: nowrap;
+	font-size: 0;
+    background-color: blue;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	background: rgb(105, 102, 255);
+	margin-right: 5%;
+	font-size: 14px;
+}
+.textcols .textcols-item:last-child {
+	margin-right: 0 ;
+}
